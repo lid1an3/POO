@@ -16,12 +16,12 @@ class Animal {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-    void saoEspertos() {}
+    void saoAnimais() {}
 }
 class Peixe extends Animal {
     String tipo;
     Peixe() {}
-    void saoEspertos() {
+    void saoAnimais() {
         System.out.println("Peixes são animais vertebrados aquáticos + peixes  palhaços são uma espécie fascinante .");
         System.out.println("Animais são incriveis + O guepardo é capaz de atingir velocidades impressionantes.");
     }
@@ -29,6 +29,6 @@ class Peixe extends Animal {
 public class Main {
     public static void main(String[] args) {
         Peixe peixe = new Peixe();
-        peixe.saoEspertos();
+        peixe.saoAnimais();
     }
 }
